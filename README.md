@@ -47,7 +47,7 @@ $ NODE_ENV=production npm start
 
 ##### Listening outside of localhost
 
-By default the application listens on localhost port 3000, as defined in [`server/manifest.js`](server/manifest.js).
+By default the application listens on localhost port 4000, as defined in [`server/manifest.js`](server/manifest.js).
 
 If you want to access the API outside of localhost (e.g. you are running the API on a virtual machine and you want to access it from the host) then you may make the following modification to this file:
 

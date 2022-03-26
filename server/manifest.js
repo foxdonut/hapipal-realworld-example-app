@@ -17,7 +17,7 @@ module.exports = new Confidence.Store({
             $default: {
                 $param: 'PORT',
                 $coerce: 'number',
-                $default: 3000
+                $default: 4000
             },
             test: { $value: undefined }         // Let the server find an open port
         },
